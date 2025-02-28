@@ -1,7 +1,7 @@
 import logging
 from aiogram import executor
 from config import dp, database, ADMINS, bot
-from handlers import start, info, products, orders, store_fsm
+from handlers import info, orders, products, start, store_fsm
 
 
 async def on_startup(_):
