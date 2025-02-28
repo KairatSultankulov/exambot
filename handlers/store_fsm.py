@@ -76,7 +76,7 @@ async def load_photo(message: types.Message, state: FSMContext):
                 f"{data['name']}\n"
                 f"Категория: {data['category']}\n"
                 f"Размер: {data['size']}\n"
-                f"Цена: {data['price']} руб.\n"
+                f"Цена: {data['price']} \n"
                 f"Артикул: {data['product_id']}\n")
 
         await message.answer_photo(photo=data["photo"], caption=text)
